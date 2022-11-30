@@ -1,0 +1,19 @@
+.chart {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--btn {
+        margin-top : 2rem;
+        background-color: #b3d9ff;
+        font-size : 1rem;
+        border-radius : 1rem;
+        padding : 5px;
+        border : 1px solid #000;
+        color : #fff;
+
+        &:active {
+            transform : translateY(-2px);
+        }
+    }
+}

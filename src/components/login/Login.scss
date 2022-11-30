@@ -1,0 +1,46 @@
+.login__form {
+    margin : 5rem auto;
+    width : 25%;  
+    &--title {
+        font-size : 20px;
+        font-weight: bold;
+        display : flex;
+        justify-content: center;
+    }
+    &--terms {
+        margin-left : 20px;
+        &__message {
+            font-size : 12px;
+        }
+    }
+    &--field {
+        margin : 1rem;
+        &__label {
+            font-size: 10px;
+        }
+
+        &__input {
+            display : block;
+            width : 100%;
+            border : 1px solid grey;
+        }  
+
+        &__error {
+            color : red;
+            font-size : 10px;
+            text-align: center;
+        }  
+    }
+
+    .create__account {
+        display : flex;
+        justify-content: center;
+        margin-top : 1rem;
+        &--btn {
+            background-color: skyblue;
+            padding : 10px;
+            border-radius : 10px;
+        }
+    }
+    
+}
